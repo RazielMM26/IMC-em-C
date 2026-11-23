@@ -6,7 +6,7 @@
 // Estabelecendo função principal
 double imc(float peso, float altura)
 {
-    // Estabelenco condição
+    // Estabelecendo condição
     if (altura <= 0)
     {
         printf("Erro! Denominador (altura) não pode ser 0.\n");
@@ -14,7 +14,7 @@ double imc(float peso, float altura)
     }
 
 
-    // Propondo estrutura método de cálculo do IMC
+    // Propondo método de cálculo para o IMC
     return peso/pow(altura, 2);
 }
 
@@ -38,7 +38,7 @@ int main(){
     double resultado = imc(peso, altura);
 
 
-    // Informando que será apresentada a faixa de imc que o usuário se encontra posteriormente
+    // Informando o imc do usuário será exibido
     printf("Olá %s %s! Irei verificar a faixa em que se encontra seu índice de massa corporal.\n", nome, sobrenome);
 
 
